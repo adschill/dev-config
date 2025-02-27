@@ -13,4 +13,7 @@ echo "Setting up development environment..."
 echo "neovim..."
 ln -sf "$PWD/nvim" "$HOME/.config/nvim"
 
+echo "tmux..."
+ln -sf "$PWD/.tmux.conf" "$HOME/.tmux.conf"
+
 echo "Done!"
