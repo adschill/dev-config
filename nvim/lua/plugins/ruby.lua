@@ -15,7 +15,7 @@ return {
           "-v",
           "/local/path/to/project:/container/path/to/project",
           "your_project_image:your_project_tag",
-          "pylsp",
+          "ruby-lsp",
         },
       }),
     },
