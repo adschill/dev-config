@@ -15,5 +15,6 @@ ln -sf "$PWD/nvim" "$HOME/.config/nvim"
 
 echo "tmux..."
 ln -sf "$PWD/.tmux.conf" "$HOME/.tmux.conf"
+tmux source ~/.tmux.conf
 
 echo "Done!"
