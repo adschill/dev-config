@@ -5,3 +5,4 @@ local map = LazyVim.safe_keymap_set
 
 -- lazy
 map("n", "<leader>ll", "<cmd>Lazy<cr>", { desc = "Lazy" })
+map("n", "<leader>ct", "<cmd>TodoQuickFix<cr>", { desc = "TodoQuickFix" })
